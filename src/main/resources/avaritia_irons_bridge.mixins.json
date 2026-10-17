@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.avaritiaironsbridge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "avaritia_irons_bridge.refmap.json",
+  "plugin": "com.example.avaritiaironsbridge.mixin.MixinConfigPlugin",
+  "mixins": [
+    "AvaritiaShieldMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

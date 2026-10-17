@@ -1,0 +1,17 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="avaritia_irons_bridge"
+version="1.0.0"
+displayName="Avaritia & Irons Lib Bridge"
+authors="Bridge Author"
+description="Resolves startup mixin injection conflict between Avaritia and Irons Lib by safely overriding LocalPlayerMixin initialization."
+
+[[dependencies.avaritia_irons_bridge]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
