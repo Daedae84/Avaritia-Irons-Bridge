@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/example/conflictfix/issues"
+
+[[mods]]
+modId="avaritia_irons_conflict_fixer"
+version="1.0.0"
+displayName="Avaritia & Irons Lib Conflict Fixer"
+authors="AI Assistant"
+description="Dynamically intercepts and resolves the LocalPlayerMixin redirect crash between Avaritia and Irons Lib on Forge 1.20.1."
+displayURL="https://github.com/example/conflictfix"
+
+[[dependencies.avaritia_irons_conflict_fixer]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
